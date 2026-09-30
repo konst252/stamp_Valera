@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO-теги (Шаг 2) -->
+    <title>StampPro Опт - Официальный дилер оснасток для печатей оптом</title>
+    <meta name="description" content="Оптовые поставки оснасток для печатей Trodat, Colop, Shiny, GRM. Официальный дилер. Спец. цены для селлеров маркетплейсов и штемпельных мастерских. Доставка по Москве и РФ.">
+    <meta name="keywords" content="оснастки для печатей оптом, автоматические оснастки опт, карманные оснастки купить оптом, trodat оптом, colop оптом, штемпельная продукция опт, комплектующие для печатей">
+    
+    <!-- Open Graph (для красивых ссылок в мессенджерах) -->
+    <meta property="og:title" content="StampPro Опт - Оснастки для печатей оптом">
+    <meta property="og:description" content="Прямые B2B поставки. Официальный дилер мировых брендов.">
+    <meta property="og:image" content="https://ваш-домен.ru/75478_base.jpg">
+    <meta property="og:type" content="website">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-up { animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        .delay-100 { animation-delay: 100ms; }
+        
+        /* Элегантный скроллбар */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="text-slate-800 bg-slate-50 antialiased selection:bg-blue-200 selection:text-blue-900">
+
+    <header id="header" class="fixed w-full z-50 transition-all duration-500 bg-transparent py-6 border-b border-transparent">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center gap-3 cursor-pointer group">
+                <div class="bg-gradient-to-br from-blue-600 to-indigo-700 p-2.5 rounded-xl shadow-lg group-hover:shadow-blue-500/30 transition-all duration-300">
+                    <i data-lucide="stamp" class="text-white w-6 h-6"></i>
+                </div>
+                <div class="flex flex-col">
+                    <span id="logo-text" class="font-extrabold text-2xl tracking-tight text-white transition-colors duration-300">StampPro <span class="text-blue-400">Опт</span></span>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex gap-10 font-medium">
+                <a href="#brands" class="nav-link text-white/80 hover:text-white transition-colors">Бренды</a>
+                <a href="#catalog" class="nav-link text-white/80 hover:text-white transition-colors">Каталог</a>
+                <a href="#benefits" class="nav-link text-white/80 hover:text-white transition-colors">Сотрудничество</a>
+            </nav>
+
+            <div class="hidden md:flex items-center gap-5">
+                <div class="flex items-center gap-3 mr-2">
+                    <a href="tel:+79261261298" id="header-phone" class="font-bold text-white transition-colors hover:text-blue-300 text-[15px] tracking-wide">+7 (926) 126-12-98</a>
+                    <div class="h-4 w-px bg-white/30 transition-colors duration-300" id="header-divider"></div>
+                    <!-- Иконки мессенджеров -->
+                    <a href="https://wa.me/79261261298" target="_blank" title="WhatsApp" id="header-wa" class="text-white transition-all hover:scale-110">
+                        <svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
+                    <a href="https://t.me/79261261298" target="_blank" title="Telegram" id="header-tg" class="text-white transition-all hover:scale-110">
+                        <svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                    </a>
+                    <a href="#" target="_blank" title="MAX" id="header-max" class="text-[10px] font-bold text-white bg-white/20 transition-all hover:bg-white/40 px-1.5 py-0.5 rounded uppercase tracking-wider hover:scale-105">
+                        MAX
+                    </a>
+                </div>
+                <button onclick="toggleModal(true)" class="flex items-center gap-2 bg-white/10 hover:bg-white text-white hover:text-blue-700 border border-white/20 backdrop-blur-md px-5 py-2.5 rounded-full font-medium transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.1)] hover:shadow-xl hover:-translate-y-0.5 text-sm">
+                    <i data-lucide="file-text" class="w-4 h-4"></i>Прайс-лист
+                </button>
+            </div>
+
+            <button class="md:hidden" onclick="toggleMobileMenu()">
+                <i data-lucide="menu" id="menu-icon" class="text-white w-7 h-7"></i>
+            </button>
+        </div>
+        
+        <!-- Мобильное меню -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-xl shadow-2xl py-6 px-6 flex-col gap-4 border-t border-slate-100">
+            <a href="#brands" onclick="toggleMobileMenu()" class="text-slate-800 font-medium py-3 border-b border-slate-100 flex items-center justify-between">Бренды <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400"></i></a>
+            <a href="#catalog" onclick="toggleMobileMenu()" class="text-slate-800 font-medium py-3 border-b border-slate-100 flex items-center justify-between">Каталог <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400"></i></a>
+            <a href="#benefits" onclick="toggleMobileMenu()" class="text-slate-800 font-medium py-3 border-b border-slate-100 flex items-center justify-between">Сотрудничество <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400"></i></a>
+            
+            <div class="mt-4 flex flex-col items-center gap-3">
+                <a href="tel:+79261261298" class="text-blue-600 font-bold text-xl">+7 (926) 126-12-98</a>
+                <div class="flex items-center gap-4">
+                    <a href="https://wa.me/79261261298" target="_blank" class="text-[#25D366] p-2 bg-[#25D366]/10 rounded-full">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
+                    <a href="https://t.me/79261261298" target="_blank" class="text-[#0088cc] p-2 bg-[#0088cc]/10 rounded-full">
+                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                    </a>
+                    <a href="#" target="_blank" class="text-slate-700 bg-slate-100 font-bold p-2 px-3 rounded-xl text-sm">MAX</a>
+                </div>
+            </div>
+            
+            <button onclick="toggleMobileMenu(); toggleModal(true)" class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-4 rounded-xl font-medium mt-4 flex justify-center items-center gap-2 shadow-lg shadow-blue-500/30">
+                <i data-lucide="download" class="w-5 h-5"></i>Скачать оптовый прайс
+            </button>
+        </div>
+    </header>
+
+    <section class="relative pt-40 pb-28 md:pt-56 md:pb-40 overflow-hidden">
+        <div class="absolute inset-0 bg-slate-900 z-0"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-900/40 to-slate-900 z-0"></div>
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03] mix-blend-overlay z-0"></div>
+        
+        <div class="absolute top-0 right-1/4 w-[500px] h-[500px] bg-blue-500/20 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute bottom-0 left-1/4 w-[600px] h-[600px] bg-indigo-500/10 rounded-full blur-[150px] pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10 text-center md:text-left flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-3/5 text-white animate-fade-in-up">
+                <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 backdrop-blur-md px-5 py-2 rounded-full text-sm font-medium mb-8 text-blue-100 shadow-sm">
+                    <span class="relative flex h-2.5 w-2.5">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-blue-500"></span>
+                    </span>
+                    Официальный дилер мировых брендов
+                </div>
+                
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] mb-6 tracking-tight">
+                    Премиальные оснастки <br class="hidden md:block"/>
+                    для печатей <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-indigo-300">оптом</span>
+                </h1>
+                
+                <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl font-light leading-relaxed">
+                    Прямые B2B поставки для штемпельных мастерских и селлеров маркетплейсов. Оригинальная продукция от лидеров рынка. <strong class="text-white font-medium">Доставка по Москве и в регионы.</strong>
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-5 justify-center md:justify-start">
+                    <button onclick="toggleModal(true)" class="bg-white text-slate-900 hover:bg-slate-50 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.25)] hover:-translate-y-1 flex items-center justify-center gap-2">
+                        Получить спецпредложение
+                    </button>
+                    <a href="#catalog" class="bg-transparent hover:bg-white/5 border border-white/20 text-white px-8 py-4 rounded-full font-medium text-lg transition-all duration-300 flex items-center justify-center gap-2">
+                        Каталог продукции <i data-lucide="arrow-down" class="w-5 h-5 opacity-70"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="md:w-2/5 relative animate-fade-in-up delay-100 hidden md:block">
+                <div class="relative z-10 rounded-3xl overflow-hidden shadow-2xl border border-white/10 group">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent z-10"></div>
+                    <img src="75478_base.jpg" alt="Оснастки для печатей оптом" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" />
+                    <div class="absolute bottom-6 left-6 z-20">
+                        <div class="text-white font-semibold text-lg">Высочайшее качество</div>
+                        <div class="text-slate-300 text-sm">Гарантия на все механизмы</div>
+                    </div>
+                </div>
+                <div class="absolute -bottom-6 -left-6 w-24 h-24 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4yIi8+PC9zdmc+')] z-0"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="brands" class="py-10 bg-white border-b border-slate-100">
+        <div class="container mx-auto px-6">
+            <p class="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-8">Официальный дилер мировых брендов</p>
+            <div class="flex flex-wrap justify-center items-center gap-10 md:gap-20 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+                <div class="text-2xl md:text-3xl font-black text-slate-800 tracking-tighter">trodat</div>
+                <div class="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-wide">COLOP</div>
+                <div class="text-2xl md:text-3xl font-bold text-slate-800 italic">Shiny</div>
+                <div class="text-2xl md:text-3xl font-black text-slate-800">GRM</div>
+                <div class="text-xl md:text-2xl font-bold text-slate-600 flex items-center gap-2">и другие <i data-lucide="plus" class="w-5 h-5"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="py-24 bg-slate-50 relative">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">Безупречный сервис для вашего бизнеса</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto text-lg">Обеспечиваем бесперебойные поставки, чтобы вы могли сфокусироваться на производстве и продажах.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-10 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group hover:-translate-y-1">
+                    <div class="bg-slate-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors duration-300">
+                        <i data-lucide="award" class="w-8 h-8 text-blue-600 group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Оригинальные бренды</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Прямые поставки от производителей. Гарантия подлинности и долговечности механизмов.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group hover:-translate-y-1">
+                    <div class="bg-slate-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors duration-300">
+                        <i data-lucide="box" class="w-8 h-8 text-blue-600 group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Глубокий склад</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Постоянное наличие востребованных позиций: автоматические, ручные, карманные оснастки.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group hover:-translate-y-1">
+                    <div class="bg-slate-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors duration-300">
+                        <i data-lucide="trending-up" class="w-8 h-8 text-blue-600 group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Спец. цены Ozon/WB</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Особые условия для селлеров маркетплейсов. Обеспечиваем высокую маржинальность ваших продаж.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 group hover:-translate-y-1">
+                    <div class="bg-slate-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors duration-300">
+                        <i data-lucide="map-pin" class="w-8 h-8 text-blue-600 group-hover:text-white transition-colors"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Надежная логистика</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Оперативная доставка по Москве и отправка транспортными компаниями в любые регионы РФ.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="py-24 bg-white relative">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div class="max-w-2xl">
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">Каталог продукции</h2>
+                    <p class="text-slate-500 text-lg">Полный ассортимент качественных оснасток от мировых производителей.</p>
+                </div>
+            </div>
+            
+            <div class="flex flex-wrap gap-2 mb-16 sticky top-[90px] z-40 bg-white/95 backdrop-blur-md py-4 border-b border-slate-100" id="tabs">
+                <button onclick="scrollToSection('auto')" class="bg-slate-100 text-slate-600 hover:bg-slate-900 hover:text-white px-6 py-2.5 rounded-xl font-medium transition-all text-sm tracking-wide">Автоматические</button>
+                <button onclick="scrollToSection('pocket')" class="bg-slate-100 text-slate-600 hover:bg-slate-900 hover:text-white px-6 py-2.5 rounded-xl font-medium transition-all text-sm tracking-wide">Карманные</button>
+                <button onclick="scrollToSection('manual')" class="bg-slate-100 text-slate-600 hover:bg-slate-900 hover:text-white px-6 py-2.5 rounded-xl font-medium transition-all text-sm tracking-wide">Ручные</button>
+                <button onclick="scrollToSection('parts')" class="bg-slate-100 text-slate-600 hover:bg-slate-900 hover:text-white px-6 py-2.5 rounded-xl font-medium transition-all text-sm tracking-wide">Комплектующие</button>
+            </div>
+
+            <!-- Автоматические -->
+            <div id="auto" class="scroll-mt-40 mb-24">
+                <div class="flex items-center gap-4 mb-8">
+                    <h3 class="text-2xl font-bold text-slate-900">Автоматические оснастки</h3>
+                    <div class="h-[1px] flex-grow bg-slate-100"></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="auto-d40-round.jpg" alt="Автоматическая оснастка D40 Круглая оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute top-4 left-4 bg-white/80 backdrop-blur text-xs font-bold px-3 py-1 rounded-full text-slate-600 shadow-sm border border-slate-100">Trodat / Colop</div>
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Оснастка D40 (Круглая)</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Классический формат для организаций. Идеальная механика, встроенная сменная подушка.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="auto-38x14-rect.jpg" alt="Автоматическая оснастка 38х14 мм оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Оснастка 38х14 мм</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Малый прямоугольный формат для факсимиле, штампов ОТК и коротких реквизитов.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="auto-58x22-rect.jpg" alt="Автоматическая оснастка 58х22 мм оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Оснастка 58х22 мм</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Увеличенный размер. Оптимально для полных адресных и банковских штампов.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Карманные -->
+            <div id="pocket" class="scroll-mt-40 mb-24">
+                <div class="flex items-center gap-4 mb-8">
+                    <h3 class="text-2xl font-bold text-slate-900">Карманные оснастки</h3>
+                    <div class="h-[1px] flex-grow bg-slate-100"></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="pocket-mouse-d40.jpg" alt="Карманная оснастка Мышь D40 оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute top-4 left-4 bg-blue-50/80 backdrop-blur text-xs font-bold px-3 py-1 rounded-full text-blue-600 shadow-sm border border-blue-100">Хит продаж</div>
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Карманная «Мышь» D40</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Компактный пластиковый корпус со встроенной штемпельной подушкой. Идеально для маркетплейсов.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="pocket-metal-d40.jpg" alt="Карманная металлическая оснастка D40 оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute top-4 left-4 bg-slate-800/80 backdrop-blur text-xs font-bold px-3 py-1 rounded-full text-white shadow-sm border border-slate-700">Премиум</div>
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Карманная металл. D40</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Презентабельный внешний вид и надежный долговечный механизм для руководителей.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="pocket-colop-r40.jpg" alt="Карманная оснастка Colop Pocket Stamp R40 оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Colop Pocket Stamp R40</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Круглая (Ø 40мм). Имеет клеевой слой для крепления клише и встроенную синюю штемпельную подушку.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ручные -->
+            <div id="manual" class="scroll-mt-40 mb-24">
+                <div class="flex items-center gap-4 mb-8">
+                    <h3 class="text-2xl font-bold text-slate-900">Ручные оснастки</h3>
+                    <div class="h-[1px] flex-grow bg-slate-100"></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="manual-plastic-round.jpg" alt="Ручные пластиковые круглые оснастки оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Пластиковые (Круглые)</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Классические ручные оснастки под стандартные диаметры. Легкие и практичные для повседневного использования.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="manual-plastic-rect.jpg" alt="Ручные пластиковые прямоугольные оснастки оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Пластиковые (Прямоуг.)</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Простые ручные оснастки для штампов любых форматов. Надежный пластиковый корпус.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="manual-wooden-classic.jpg" alt="Деревянные оснастки для печатей оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute top-4 left-4 bg-green-50/80 backdrop-blur text-xs font-bold px-3 py-1 rounded-full text-green-700 shadow-sm border border-green-100">Эко</div>
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Деревянные оснастки</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Традиционный материал. Приятная текстура, подходят для любых форм печатей и штампов.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Комплектующие -->
+            <div id="parts" class="scroll-mt-40">
+                 <div class="flex items-center gap-4 mb-8">
+                    <h3 class="text-2xl font-bold text-slate-900">Комплектующие и расходники</h3>
+                    <div class="h-[1px] flex-grow bg-slate-100"></div>
+                </div>
+                 <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="part-replacement-pads.jpg" alt="Сменные штемпельные подушки оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Сменные подушки</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Под любые размеры. Долговечная мастика, обеспечивающая четкость тысяч оттисков.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="part-photopolymer-colop.jpg" alt="Фотополимер Colop VX 55 для печатей оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Фотополимер Colop VX 55</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Твердость 55 Шор А. Высокое разрешение, четкий оттиск, УФ-устойчивость. Фасовка: 1 кг.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+                        <div class="h-56 bg-white flex items-center justify-center relative overflow-hidden p-6">
+                            <img src="part-stamp-ink.jpg" alt="Штемпельная краска для печатей оптом" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                        </div>
+                        <div class="p-8 flex-grow flex flex-col bg-slate-50 border-t border-slate-100">
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="text-lg font-bold text-slate-900">Штемпельная краска</h3>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-8 flex-grow">Высококачественная краска на водной или спиртовой основе. Базовые и нестандартные цвета.</p>
+                            <div class="flex items-center justify-between mt-auto">
+                                <span class="text-xs font-semibold tracking-wider text-slate-400 uppercase">Цена по запросу</span>
+                                <button onclick="toggleModal(true)" class="text-blue-600 font-medium hover:text-blue-800 flex items-center gap-1 text-sm transition-colors">
+                                    В прайс-лист <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-gradient-to-br from-blue-700 to-indigo-900 relative overflow-hidden rounded-t-[3rem] md:rounded-t-[5rem] -mt-10 z-10">
+        <div class="absolute top-0 right-0 -mt-20 -mr-20 w-96 h-96 bg-blue-500 rounded-full blur-[100px] opacity-40"></div>
+        <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-96 h-96 bg-indigo-500 rounded-full blur-[100px] opacity-40"></div>
+        
+        <div class="container mx-auto px-6 text-center relative z-20">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">Запросите оптовые условия</h2>
+            <p class="text-blue-100 text-lg md:text-xl mb-12 max-w-2xl mx-auto font-light">Получите актуальный прайс-лист и обсудите индивидуальные условия сотрудничества для вашего бизнеса.</p>
+            
+            <button onclick="toggleModal(true)" class="bg-white text-blue-700 px-10 py-5 rounded-full font-bold text-lg hover:bg-slate-50 transition-all duration-300 shadow-[0_15px_30px_rgba(0,0,0,0.2)] hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)] inline-flex items-center gap-3">
+                <i data-lucide="mail" class="w-5 h-5"></i> Оставить заявку
+            </button>
+            
+            <div class="mt-10 flex flex-wrap justify-center gap-6 md:gap-12 text-blue-200 text-sm font-medium">
+                <span class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-blue-400"></i> Прямой дилер</span>
+                <span class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-blue-400"></i> ЭДО и Договор</span>
+                <span class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-blue-400"></i> Надежная логистика</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-16">
+        <div class="container mx-auto px-6 grid md:grid-cols-12 gap-12">
+            <div class="md:col-span-5">
+                <div class="flex items-center gap-2 mb-6">
+                    <i data-lucide="stamp" class="text-blue-500 w-7 h-7"></i>
+                    <span class="font-extrabold text-2xl text-white tracking-tight">StampPro <span class="text-blue-500">Опт</span></span>
+                </div>
+                <p class="text-sm leading-relaxed max-w-sm mb-6">Ваш надежный B2B-партнер. Официальный дилер мировых брендов штемпельной продукции на территории России.</p>
+            </div>
+            
+            <div class="md:col-span-3">
+                <h4 class="text-white font-bold mb-6 text-lg">Навигация</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#brands" class="hover:text-blue-400 transition-colors">Бренды</a></li>
+                    <li><a href="#catalog" class="hover:text-blue-400 transition-colors">Каталог продукции</a></li>
+                    <li><a href="#benefits" class="hover:text-blue-400 transition-colors">Условия работы</a></li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-4">
+                <h4 class="text-white font-bold mb-6 text-lg">Контакты</h4>
+                <ul class="space-y-4 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="phone" class="w-5 h-5 text-blue-500 mt-0.5"></i>
+                        <div class="flex flex-col gap-2">
+                            <a href="tel:+79261261298" class="text-white font-medium hover:text-blue-400 transition-colors text-lg">+7 (926) 126-12-98</a>
+                            <div class="flex items-center gap-3">
+                                <a href="https://wa.me/79261261298" target="_blank" title="WhatsApp" class="text-slate-400 hover:text-[#25D366] transition-colors">
+                                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                                </a>
+                                <a href="https://t.me/79261261298" target="_blank" title="Telegram" class="text-slate-400 hover:text-[#0088cc] transition-colors">
+                                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                                </a>
+                                <a href="#" target="_blank" title="MAX" class="text-[10px] font-bold text-slate-950 bg-slate-400 transition-all hover:bg-white px-1.5 py-0.5 rounded uppercase tracking-wider">
+                                    MAX
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3 pt-2">
+                        <i data-lucide="mail" class="w-5 h-5 text-blue-500 mt-0.5"></i>
+                        <a href="mailto:4924trod@mail.ru" class="hover:text-white transition-colors">4924trod@mail.ru</a>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i data-lucide="map-pin" class="w-5 h-5 text-blue-500 mt-0.5"></i>
+                        <span>г. Москва<br><span class="text-slate-500 text-xs">Доставка по Москве и в регионы РФ</span></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mx-auto px-6 mt-16 pt-8 border-t border-white/10 text-xs flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>© 2026 StampPro Опт. Все права защищены.</div>
+        </div>
+    </footer>
+
+    <div id="modal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4">
+        <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-md transition-opacity" onclick="toggleModal(false)"></div>
+        <div class="bg-white rounded-3xl w-full max-w-md relative z-10 p-8 shadow-2xl animate-fade-in-up border border-slate-100 overflow-hidden">
+            <button onclick="toggleModal(false)" class="absolute top-6 right-6 text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-full p-1.5 transition-colors">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+            <div id="form-content">
+                <div class="mb-8">
+                    <h3 class="text-2xl font-extrabold text-slate-900 mb-2 tracking-tight">Получить прайс-лист</h3>
+                    <p class="text-slate-500 text-sm">Оставьте контакты, и наш менеджер оперативно свяжется с вами.</p>
+                </div>
+                <form onsubmit="handleFormSubmit(event)" class="space-y-5">
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-1.5">Ваше имя / Название компании</label>
+                        <input type="text" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="ООО «Печати»">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-1.5">Телефон для связи</label>
+                        <input type="text" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="+7 (999) 000-00-00">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-1.5">Email (для отправки прайса)</label>
+                        <input type="email" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="mail@example.com">
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl mt-4 transition-colors shadow-lg shadow-blue-500/30">
+                        Получить спецпредложение
+                    </button>
+                    <p class="text-[11px] text-slate-400 text-center leading-tight">Нажимая кнопку, вы даете согласие на обработку персональных данных.</p>
+                </form>
+            </div>
+            <div id="success-content" class="hidden flex-col items-center justify-center text-center py-6">
+                <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-6">
+                    <i data-lucide="check" class="w-8 h-8"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-900 mb-2">Заявка отправлена!</h3>
+                <p class="text-slate-500 text-sm mb-6">Мы уже получили ваши данные. Менеджер свяжется с вами в рабочее время для уточнения деталей.</p>
+                <button onclick="toggleModal(false)" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium px-8 py-3 rounded-xl transition-colors">
+                    Закрыть окно
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        // Логика цвета шапки
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            const logoText = document.getElementById('logo-text');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const menuIcon = document.getElementById('menu-icon');
+            const headerPhone = document.getElementById('header-phone');
+            const headerDivider = document.getElementById('header-divider');
+            
+            // Мессенджеры в шапке
+            const wa = document.getElementById('header-wa');
+            const tg = document.getElementById('header-tg');
+            const max = document.getElementById('header-max');
+
+            if (window.scrollY > 20) {
+                header.classList.add('bg-white/95', 'backdrop-blur-md', 'shadow-sm', 'py-4', 'border-b', 'border-slate-100');
+                header.classList.remove('bg-transparent', 'py-6', 'border-transparent');
+                logoText.classList.replace('text-white', 'text-slate-900');
+                menuIcon.classList.replace('text-white', 'text-slate-900');
+                headerPhone.classList.replace('text-white', 'text-slate-900');
+                headerDivider.classList.replace('bg-white/30', 'bg-slate-200');
+                navLinks.forEach(link => {
+                    link.classList.replace('text-white/80', 'text-slate-600');
+                    link.classList.replace('hover:text-white', 'hover:text-blue-600');
+                });
+                
+                // Красим мессенджеры в фирменные цвета при скролле
+                if(wa) {
+                    wa.classList.replace('text-white', 'text-[#25D366]');
+                    tg.classList.replace('text-white', 'text-[#0088cc]');
+                    max.classList.replace('text-white', 'text-slate-700');
+                    max.classList.replace('bg-white/20', 'bg-slate-100');
+                    max.classList.replace('hover:bg-white/40', 'hover:bg-slate-200');
+                }
+            } else {
+                header.classList.remove('bg-white/95', 'backdrop-blur-md', 'shadow-sm', 'py-4', 'border-b', 'border-slate-100');
+                header.classList.add('bg-transparent', 'py-6', 'border-transparent');
+                logoText.classList.replace('text-slate-900', 'text-white');
+                menuIcon.classList.replace('text-slate-900', 'text-white');
+                headerPhone.classList.replace('text-slate-900', 'text-white');
+                headerDivider.classList.replace('bg-slate-200', 'bg-white/30');
+                navLinks.forEach(link => {
+                    link.classList.replace('text-slate-600', 'text-white/80');
+                    link.classList.replace('hover:text-blue-600', 'hover:text-white');
+                });
+
+                // Возвращаем белый цвет мессенджерам на самом верху
+                if(wa) {
+                    wa.classList.replace('text-[#25D366]', 'text-white');
+                    tg.classList.replace('text-[#0088cc]', 'text-white');
+                    max.classList.replace('text-slate-700', 'text-white');
+                    max.classList.replace('bg-slate-100', 'bg-white/20');
+                    max.classList.replace('hover:bg-slate-200', 'hover:bg-white/40');
+                }
+            }
+        });
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+        }
+
+        function toggleModal(show) {
+            const modal = document.getElementById('modal');
+            const formContent = document.getElementById('form-content');
+            const successContent = document.getElementById('success-content');
+            
+            if (show) {
+                modal.classList.remove('hidden');
+                formContent.classList.remove('hidden');
+                successContent.classList.add('hidden');
+                successContent.classList.remove('flex');
+                const form = formContent.querySelector('form');
+                if(form) form.reset();
+            } else {
+                modal.classList.add('hidden');
+            }
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            document.getElementById('form-content').classList.add('hidden');
+            const successBlock = document.getElementById('success-content');
+            successBlock.classList.remove('hidden');
+            successBlock.classList.add('flex');
+        }
+
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+    </script>
+</body>
+</html>
