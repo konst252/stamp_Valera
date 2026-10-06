@@ -9,17 +9,16 @@
     <meta name="description" content="Оптовые поставки оснасток для печатей Trodat, Colop, Shiny, GRM. Официальный дилер. Спец. цены для селлеров маркетплейсов и штемпельных мастерских. Доставка по Москве и РФ.">
     <meta name="keywords" content="оснастки для печатей оптом, автоматические оснастки опт, карманные оснастки купить оптом, trodat оптом, colop оптом, штемпельная продукция опт, комплектующие для печатей">
     
-    <!-- Open Graph (для красивых ссылок в мессенджерах) -->
+    <!-- Open Graph -->
     <meta property="og:title" content="StampPro Опт - Оснастки для печатей оптом">
     <meta property="og:description" content="Прямые B2B поставки. Официальный дилер мировых брендов.">
-    <meta property="og:image" content="https://ваш-домен.ru/75478_base.jpg">
+    <meta property="og:image" content="https://4924trod.ru/75478_base.jpg">
     <meta property="og:type" content="website">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
     <style>
-        /* Точечный предохранитель от появления окон до загрузки скриптов */
         #modal.hidden, #mobile-menu.hidden, #success-content.hidden { display: none !important; }
         
         body { font-family: 'Inter', sans-serif; }
@@ -30,7 +29,6 @@
         .animate-fade-in-up { animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
         .delay-100 { animation-delay: 100ms; }
         
-        /* Элегантный скроллбар */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #f1f5f9; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
@@ -60,7 +58,6 @@
                 <div class="flex items-center gap-3 mr-2">
                     <a href="tel:+79261261298" id="header-phone" class="font-bold text-white transition-colors hover:text-blue-300 text-[15px] tracking-wide">+7 (926) 126-12-98</a>
                     <div class="h-4 w-px bg-white/30 transition-colors duration-300" id="header-divider"></div>
-                    <!-- Иконки мессенджеров -->
                     <a href="https://wa.me/79261261298" target="_blank" title="WhatsApp" id="header-wa" class="text-white transition-all hover:scale-110">
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                     </a>
@@ -591,6 +588,7 @@
         </div>
     </footer>
 
+    <!-- Модальное окно заявки -->
     <div id="modal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4">
         <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-md transition-opacity" onclick="toggleModal(false)"></div>
         <div class="bg-white rounded-3xl w-full max-w-md relative z-10 p-8 shadow-2xl animate-fade-in-up border border-slate-100 overflow-hidden">
@@ -602,27 +600,32 @@
                     <h3 class="text-2xl font-extrabold text-slate-900 mb-2 tracking-tight">Получить прайс-лист</h3>
                     <p class="text-slate-500 text-sm">Оставьте контакты, и наш менеджер оперативно свяжется с вами.</p>
                 </div>
-				<form id="lead-form" onsubmit="handleFormSubmit(event)" class="space-y-5">
-                    <!-- Тема письма на русском языке -->
-                    <input type="hidden" name="_subject" value="Новая заявка на прайс-лист с сайта 4924trod.ru">
+                <form id="lead-form" onsubmit="handleFormSubmit(event)" class="space-y-5">
+                    <!-- Ключ Web3Forms -->
+                    <input type="hidden" name="access_key" value="fc763bba-c3dd-48f7-a885-27038e23725c">
+                    <!-- Заголовок темы письма -->
+                    <input type="hidden" name="subject" value="Новая заявка на прайс-лист с сайта 4924trod.ru">
+                    <!-- Название отправителя -->
+                    <input type="hidden" name="from_name" value="StampPro Опт">
 
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-1.5">Ваше имя / Название компании</label>
-                        <input type="text" name="Имя_или_Компания" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="ООО «Печати»">
+                        <input type="text" name="Имя клиента / Организация" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="ООО «Печати»">
                     </div>
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-1.5">Телефон для связи</label>
-                        <input type="text" name="Телефон" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="+7 (999) 000-00-00">
+                        <input type="text" name="Телефон для связи" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="+7 (999) 000-00-00">
                     </div>
                     <div>
                         <label class="block text-sm font-semibold text-slate-700 mb-1.5">Email (для отправки прайса)</label>
-                        <input type="email" name="Email_клиента" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="mail@example.com">
+                        <input type="email" name="Электронная почта" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 focus:bg-white outline-none transition-all" placeholder="mail@example.com">
                     </div>
                     <button type="submit" id="submit-btn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl mt-4 transition-colors shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2">
                         <span>Получить спецпредложение</span>
                     </button>
                     <p class="text-[11px] text-slate-400 text-center leading-tight">Нажимая кнопку, вы даете согласие на обработку персональных данных.</p>
-                </form>            </div>
+                </form>
+            </div>
             <div id="success-content" class="hidden flex-col items-center justify-center text-center py-6">
                 <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-6">
                     <i data-lucide="check" class="w-8 h-8"></i>
@@ -725,26 +728,20 @@
             const formData = new FormData(form);
 
             try {
-                const response = await fetch('https://formspree.io/f/mdeaoekb', {
+                const response = await fetch('https://api.web3forms.com/submit', {
                     method: 'POST',
-                    body: formData,
-                    headers: {
-                        'Accept': 'application/json'
-                    }
+                    body: formData
                 });
 
-                if (response.ok) {
+                const data = await response.json();
+
+                if (data.success) {
                     document.getElementById('form-content').classList.add('hidden');
                     const successBlock = document.getElementById('success-content');
                     successBlock.classList.remove('hidden');
                     successBlock.classList.add('flex');
                 } else {
-                    const data = await response.json();
-                    if (data && data.errors) {
-                        alert(data.errors.map(err => err.message).join(', '));
-                    } else {
-                        alert('Ошибка при отправке заявки. Пожалуйста, напишите нам в мессенджер.');
-                    }
+                    alert('Ошибка: ' + (data.message || 'Не удалось отправить данные. Пожалуйста, свяжитесь с нами через мессенджер.'));
                 }
             } catch (err) {
                 console.error(err);
